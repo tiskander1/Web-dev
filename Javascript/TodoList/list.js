@@ -2,13 +2,13 @@ console.log("connected");
 
 var todos = [];
 
-var input = prompt ("WHat would you like to do?")
+var input = prompt("What would you like to do?")
 
 
-while(input != "quit"){
+while (input != "quit") {
     if (input === "list") {
         console.log(todos);
-    } else if (input === "new"){
+    } else if (input === "new") {
         var newtodo = prompt("Enter new todo!")
         //add to new new to do 
         todos.push(newtodo);
@@ -18,3 +18,4 @@ while(input != "quit"){
 }
 
 console.log("OK, YOU QUIT THE APP!!!");
+
